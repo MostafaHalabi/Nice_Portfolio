@@ -1,38 +1,47 @@
 const workHistory = [
-    {
-        companyName : 'WeCommit',
-        role: 'SDE Intern',
-        duration: "July'21 – Oct'21",
-        workDes: [
-            'Build SocicalSpace B2B product and improved 3% performance by refactoring database design and modified API end - points.',
-            'Designed and developed REST API’s to integrate user interaction with Twitter and Linkedin on server.',
-            'Developed various automation task using Twitter API & Cron Schedule for end user.'
-        ],
-        exposer: ["React", "Redux Saga ", "NodeJs", "ExpressJs", "MongoDB", "Heroku", "Twitter API’s", "LinkedIn API"] ,
-        link: 'https://wecommit.in/',
-    },
-    {
-        companyName: 'EnR Consultancy',
-        role: 'SDE Intern',
-        duration: "Mar'21 – Apr'21",
-        workDes: [
-            'Developed full stack B2B admin portal web application using Reactjs,Mongodb, Nodejs.',
-            'Designed and developed REST APIs to increase user interaction on the server.',
-        ],
-        exposer: ["React ", "NodeJs", "MongoDB" , "ContextAPI"],
-        link: 'https://engagenreap.com/',
-    },
-    {
-        companyName: "GSSOC'21",
-        role: 'Student Mentor',
-        duration: "Feb'21 – Apr'21",
-        workDes: [
-            'Mentored 100+ student with their first pull request in open source',
-            'Maintained code base of girls script official & Kurroku project',
-        ],
-        exposer: ["React ", "NodeJs", "MongoDB", "ExpressJS"],
-        link: 'https://gssoc.girlscript.tech/',
-    },
+  {
+    companyName: 'ISS - Software Hive',
+    role: 'Smart Android Intern',
+    duration: "Feb'19 – Apr'19",
+    workDes: [
+      'Build custom mobile app allowing users to create accounts and share media.',
+      'Designed and developed REST API’s to integrate user interaction with WhatsApp & Emails on server.',
+      'Developed various automation tasks.',
+      'Made use of TensorFlow Lite to enable Image Recognition.',
+    ],
+    exposer: [
+      'Java',
+      'Android SDK',
+      'OpenCv',
+      'TensorFlow Lite',
+      'C++',
+      'Firebase',
+    ],
+    link: 'https://www.iss-mea.com/',
+  },
+  {
+    companyName: 'ISS - Software Hive',
+    role: 'Part Time Developer',
+    duration: "May'19 – Jan'20",
+    workDes: [
+      'Developed automated solutions using Nintex Workflow.',
+      'Designed and developed REST APIs to increase user interaction on the server.',
+      'Managed SharePoint to serve as document management and storage system.',
+    ],
+    exposer: ['Javascript ', 'C#', 'Nintex Workflow', 'Sharepoint'],
+    link: 'https://www.iss-mea.com/',
+  },
+  {
+    companyName: 'Freelancing',
+    role: 'Building Websites',
+    duration: "Feb'20 – Present",
+    workDes: [
+      'Helping small to medium business grow and automate their operations.',
+      "Making people's ideas come to life.",
+    ],
+    exposer: ['React ', 'NodeJs', 'MongoDB', 'ExpressJS'],
+    link: 'https://gssoc.girlscript.tech/',
+  },
 ];
 
 export default workHistory;
