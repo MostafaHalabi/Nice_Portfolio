@@ -1,21 +1,31 @@
 const projects = [
   {
-    title: 'CodeSync',
-    image: './images/project1.png',
-    description: "Bulding SaaS product for help student and teacher's Community, Web App include Real time Chat, Audio, CodeShare, WhiteBoard and Many more!",
-    tools: ['ReactJs', 'NodeJs', 'ExpressJs', "MongoDB", "Redux","SocketIO","WebRTC", "JWT" , "Google Auth"],
-    github: 'https://github.com/Code-Deeper/code-sync',
-    // link: 'https://github.com/Code-Deeper/code-sync',
+    title: 'The Conceptt',
+    image: './images/theconceptt-video.mp4',
+    description:
+      'Full featured E-commerce store built with MERN stack and Online Payments API. Admin page to manage customers, products & orders.',
+    tools: [
+      'ReactJs',
+      'NodeJs',
+      'ExpressJs',
+      'MongoDB',
+      'Redux',
+      'SocketIO',
+      'JWT',
+      'Google Auth',
+    ],
+    github: '',
+    link: 'https://www.theconceptt.com',
   },
   {
-    title: 'Patang Store',
-    image: './images/project2-768.png',
-    description: 'Full featured ecommerce store built with MERN stack and Paypal payments API. Admin page to manage customers, products & orders.',
-    tools: ['React', 'Redux', 'MongoDB', 'JWT', 'Express'],
-    github: 'https://github.com/codewithvk/patangstore',
-    link: 'https://patangstore.herokuapp.com/',
+    title: 'Aurel Gold',
+    image: './images/aurel-gold.mp4',
+    description:
+      'Full featured E-commerce store built with Shopify & liquid. Paypal & Stripe payments API integrated. Admin page to manage customers, products & orders.',
+    tools: ['Liquid', 'SCSS', 'Shopify'],
+    github: '',
+    link: 'https://www.aurel-gold.com/',
   },
-  
 ];
 
 export default projects;
